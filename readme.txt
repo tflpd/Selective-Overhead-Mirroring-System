@@ -1,12 +1,13 @@
+A Selective Overhead Mirroring System that is making use a set of client-apps MirrorInitiator to communicate with the help of a 
+MirrorServer with one or more ContentServers in order to acquire one ore more files from those. There have been used threads for multiple 
+parallel connections through sockets and mutexes in order to keep everything concurrent. For an explanatory figure see Project3-S17-
+K24.pdf. This is pretty much actually an implementation of a p2p app in C.
+
 SysPro - Assignment 3
 Thanasis Filippidis - 1115201400215 - sdi1400215 
 sdi1400215@di.uoa.gr
 
 Makefile provided with seperate compilation
-
-Everything is implemented except from 
-1) the option to choose the available path at ContentServer
-2) the statistics requested
 
 Files:
 > Makefile
